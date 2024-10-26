@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom "
+      class="navbar navbar-expand-lg border-bottom"
       style={{ backgroundColor: "#FFF" }}
     >
       <div class="container p-2">
-        <Link class="navbar-brand" to="/home">
+        <Link class="navbar-brand" to="/">
           <img
             src="media/images/unilogo1.svg"
             alt="logo"
@@ -30,7 +30,7 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav mb-lg-0" style={{ marginLeft: "200x" }}>
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/home">
+                <Link class="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
@@ -51,7 +51,7 @@ function Navbar() {
               </li>
               <li class="nav-item">
                 <Link class="nav-link active" to="/signup">
-                  Signup/Login
+                  Signup
                 </Link>
               </li>
               <li class="nav-item">
