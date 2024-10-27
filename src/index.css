@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.nav-link {
-  margin-left: 30px;
+
+.navbar-nav {
+  margin-left: 500px;
 }
+/* .nav-link {
+  margin-left: 30px;
+} */

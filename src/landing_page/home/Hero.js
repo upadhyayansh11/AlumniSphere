@@ -1,11 +1,26 @@
 import React from "react";
-// import HeroImage from "./public/image/";
 function Hero() {
   return (
-    <div className="container p-5 mb-5">
-      <div className="row text-center">
-        <img src="media/images/heroimage.jpg" className="mb-3"></img>
-        <h1 className="mt-5 ">Reunion Homecoming and All Alumni Day</h1>
+    <div
+      className="container p-5 mb-1"
+      style={{
+        backgroundImage: `url('media/images/heroimage.jpg')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+      }}
+    >
+      <div
+        className="row text-center"
+        style={{
+          color: "pink",
+          fontFamily: "Pacifico, cursive",
+          fontWeight: "600",
+          fontStyle: "normal",
+          marginTop: "180px",
+        }}
+      >
+        <h1 className="mt-5 fs-1 ">Reunion Homecoming and All Alumni Day</h1>
         <p className="text-muted">
           Join the University alumni community this October for an unforgettable
           Alumni Reunion Weekend! Whether you’re a recent grad or long-time
