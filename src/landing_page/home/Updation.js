@@ -4,14 +4,13 @@ function Updation() {
     <div
       className="container"
       style={{
-        color: "pink",
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
         marginTop: "180px",
       }}
     >
-      <h1>Get Updates and Get involved </h1>
+      <h1 style={{ color: "pink" }}>Get Updates and Get involved </h1>
       <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
           <label for="firstname" class="form-label">

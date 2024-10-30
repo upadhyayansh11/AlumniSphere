@@ -45,6 +45,11 @@ function Navbar() {
                 </Link>
               </li>
               <li class="nav-item">
+                <Link class="nav-link active" to="/aluminidirect">
+                  Alumni Directory
+                </Link>
+              </li>
+              <li class="nav-item">
                 <Link class="nav-link active" to="/blog">
                   Create Blog
                 </Link>

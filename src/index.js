@@ -9,6 +9,7 @@ import AboutPage from "./landing_page/about/Aboutpage";
 import EventPage from "./landing_page/events/Eventpage";
 import BlogPage from "./landing_page/blog/Blogpage";
 import ContactPage from "./landing_page/contact_us/Contactpage";
+import AluminiPage from "./landing_page/alumni_directory/AluminiPage";
 import Signup from "./landing_page/signup/Signup";
 import Login from "./landing_page/login/Login";
 import NotFound from "./landing_page/NotFound";
@@ -41,6 +42,7 @@ root.render(
       <Route path="/about" element={<AboutPage />} />
       <Route path="/events" element={<EventPage />} />
       <Route path="/blog" element={<BlogPage />} />
+      <Route path="/aluminidirect" element={<AluminiPage />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/contactus" element={<ContactPage />} />
       <Route path="/login" element={<Login />} />

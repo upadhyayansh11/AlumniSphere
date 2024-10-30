@@ -5,14 +5,15 @@ function Login() {
     <div
       class="row mt-3"
       style={{
-        color: "pink",
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
         marginTop: "180px",
       }}
     >
-      <h1 class="col-6 offset-3">Login</h1>
+      <h1 class="col-6 offset-3" style={{ color: "pink" }}>
+        Login
+      </h1>
       <div class="col-6 offset-3">
         <form action="/login" method="" class="needs-validation" novalidate>
           <div class="mb-3">

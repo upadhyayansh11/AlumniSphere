@@ -5,14 +5,15 @@ function Signup() {
     <div
       class="row mt-3"
       style={{
-        color: "pink",
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
         marginTop: "180px",
       }}
     >
-      <h1 class="col-6 offset-3">SignUp on Alumni Assosiation</h1>
+      <h1 class="col-6 offset-3" style={{ color: "pink" }}>
+        SignUp on Alumni Assosiation
+      </h1>
       <div class="col-6 offset-3">
         <form
           action="/signup"
