@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom"
+      class="navbar navbar-expand-lg border-bottom "
       style={{ backgroundColor: "#FFF" }}
     >
       <div class="container p-2">
@@ -46,7 +46,13 @@ function Navbar() {
               </li>
               <li class="nav-item">
                 <Link class="nav-link active" to="/blog">
-                  Blog
+                  Create Blog
+                </Link>
+              </li>
+
+              <li class="nav-item">
+                <Link class="nav-link active" to="/contactus">
+                  Contact Us
                 </Link>
               </li>
               <li class="nav-item">
@@ -55,8 +61,8 @@ function Navbar() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/contactus">
-                  Contact Us
+                <Link class="nav-link active" to="/login">
+                  Login
                 </Link>
               </li>
             </ul>

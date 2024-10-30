@@ -5,7 +5,7 @@ function Updation() {
       className="container"
       style={{
         color: "pink",
-        fontFamily: "Pacifico, cursive",
+        fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
         marginTop: "180px",
@@ -14,7 +14,7 @@ function Updation() {
       <h1>Get Updates and Get involved </h1>
       <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">
+          <label for="firstname" class="form-label">
             First name
           </label>
           <input
@@ -23,10 +23,10 @@ function Updation() {
             id="validationCustom01"
             required
           ></input>
-          <div class="valid-feedback">Looks good!</div>
+          <div class="valid-feedback">Name looks good!</div>
         </div>
         <div class="col-md-4">
-          <label for="validationCustom02" class="form-label">
+          <label for="lastname" class="form-label">
             Last name
           </label>
           <input
@@ -130,8 +130,8 @@ function Updation() {
           </div>
         </div>
         <div class="col-12">
-          <button class="btn btn-primary" type="submit">
-            Submit form
+          <button type="submit" className="btn btn-dark add-btn">
+            Submit
           </button>
         </div>
       </form>

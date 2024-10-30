@@ -1,7 +1,13 @@
 import React from "react";
 
+import BlogForm from "./CreateBlog";
+
 function Blogpage() {
-  return <div></div>;
+  return (
+    <>
+      <BlogForm />
+    </>
+  );
 }
 
 export default Blogpage;
