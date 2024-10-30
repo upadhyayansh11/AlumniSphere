@@ -128,8 +128,8 @@ const ContactPage = () => {
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6mb-5">
                   <div className="">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <div className="">
+                      <label className="block text-sm font-medium text-gray-700 mb-5">
                         Full Name *
                       </label>
                       <input
@@ -142,7 +142,7 @@ const ContactPage = () => {
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-gray-700 mb-5">
                         Email Address *
                       </label>
                       <input
@@ -158,7 +158,7 @@ const ContactPage = () => {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-gray-700 mb-5">
                         Subject *
                       </label>
                       <input
@@ -171,7 +171,7 @@ const ContactPage = () => {
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-gray-700 mb-5">
                         Graduation Year
                       </label>
                       <input
@@ -185,7 +185,7 @@ const ContactPage = () => {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-5">
                       Message *
                     </label>
                     <textarea
@@ -197,15 +197,9 @@ const ContactPage = () => {
                       onChange={handleChange}
                     ></textarea>
                   </div>
-
-                  <div>
-                    <button
-                      type="submit"
-                      className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                    >
-                      Send Message
-                    </button>
-                  </div>
+                  <button type="submit" className="btn btn-dark add-btn">
+                    Submit
+                  </button>
 
                   {submitStatus === "success" && (
                     <div className="" style={{ color: "green" }}>
