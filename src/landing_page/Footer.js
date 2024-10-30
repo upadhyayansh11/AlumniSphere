@@ -6,7 +6,11 @@ function Footer() {
       <div className="container ">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/unilogo1.svg" style={{ width: "50%" }}></img>
+            <img
+              src="media/images/unilogo1.svg"
+              alt=""
+              style={{ width: "50%" }}
+            ></img>
             <h5 className="mt-3">University Alumni Assosiation</h5>
             <p className="text-muted">
               University Alumni Center
