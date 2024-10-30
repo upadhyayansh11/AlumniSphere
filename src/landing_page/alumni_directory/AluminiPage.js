@@ -1,6 +1,6 @@
 import React from "react";
-function AlumniPage() {
+function AluminiPage() {
   return <></>;
 }
 
-export default AlumniPage;
+export default AluminiPage;
