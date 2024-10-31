@@ -51,7 +51,7 @@ function News() {
             affirms that we’re making strides in the right direction.”
           </p>
           <a
-            href=""
+            href="/"
             className="mx-5 "
             style={{ textDecoration: "none", color: "black" }}
           >
@@ -105,7 +105,7 @@ function News() {
             a positive impact, all while spending time with fellow alumni.
           </p>
           <a
-            href=""
+            href="/"
             className="mx-5 "
             style={{ textDecoration: "none", color: "black" }}
           >

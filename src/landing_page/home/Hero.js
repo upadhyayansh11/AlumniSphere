@@ -42,7 +42,7 @@ function Hero() {
             your heart (but not your class year) at the new Farm Fest!
           </p>
           <a
-            href=""
+            href="/"
             className="mx-5 "
             style={{ textDecoration: "none", color: "black" }}
           >
@@ -64,7 +64,7 @@ function Hero() {
             drinks, live music, games, and more.
           </p>
           <a
-            href=""
+            href="/"
             className="mx-5"
             style={{ textDecoration: "none", color: "black" }}
           >

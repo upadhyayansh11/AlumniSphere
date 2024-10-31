@@ -92,22 +92,22 @@ const ContactPage = () => {
                 <div className="mt-8 ms-4">
                   <h3 className="font-semibold mb-4">Connect With Us</h3>
                   <div className="flex m-3">
-                    <a href="" className="">
+                    <a href="/" className="">
                       <Linkedin
                         className="w-6 h-6 "
                         style={{ color: "black" }}
                       />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-600">
+                    <a href="/" className="text-gray-600 hover:text-blue-600">
                       <Facebook
                         className="w-6 h-6"
                         style={{ color: "black" }}
                       />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-600">
+                    <a href="/" className="text-gray-600 hover:text-blue-600">
                       <Twitter className="w-6 h-6" style={{ color: "black" }} />
                     </a>
-                    <a href="#" className="text-gray-600 hover:text-blue-600">
+                    <a href="/" className="text-gray-600 hover:text-blue-600">
                       <Instagram
                         className="w-6 h-6"
                         style={{ color: "black" }}

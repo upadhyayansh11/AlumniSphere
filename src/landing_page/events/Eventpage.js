@@ -139,7 +139,7 @@ const EventPage = () => {
               {event.description}
             </p>
             <a
-              href=""
+              href="/"
               className="mb-5"
               style={{ textDecoration: "none", color: "black" }}
             >

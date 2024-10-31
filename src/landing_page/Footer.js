@@ -23,41 +23,41 @@ function Footer() {
           </div>
           <div className="col" style={{ marginTop: "150px" }}>
             <p>Company</p>
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Get to Know
             </a>
             <br />
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               University Magazine
             </a>
             <br />
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Contact Us
             </a>
             <br />
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Help
             </a>
             <br />
           </div>
           <div className="col" style={{ marginTop: "150px" }}>
             <p>Check Member Card</p>
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Alumni Email
             </a>{" "}
             <br />
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Giving
             </a>{" "}
             <br />
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               My Alumni Account
             </a>{" "}
             <br />
           </div>
           <div className="col" style={{ marginTop: "150px" }}>
             <p>Account</p>
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Open an account
             </a>
             <br />
@@ -70,42 +70,42 @@ function Footer() {
           style={{ width: "80%", fontSize: "14px", marginTop: "150px" }}
         >
           <div className="col ">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               University Home
             </a>
           </div>
           <div className="col">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Maps& Directions
             </a>
           </div>
           <div className="col ">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Search
             </a>
           </div>
           <div className="col ">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Emergency Info
             </a>
           </div>
           <div className="col ">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Term of Use
             </a>
           </div>
           <div className="col">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Privacy
             </a>
           </div>
           <div className="col">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Tradmarks
             </a>
           </div>
           <div className="col">
-            <a className="text-decoration-none text-muted" href="">
+            <a className="text-decoration-none text-muted" href="/">
               Assessbliity
             </a>
           </div>
