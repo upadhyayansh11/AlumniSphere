@@ -58,7 +58,7 @@ function Signup() {
               ></input>
             </div>
             <button type="submit" className="btn btn-dark add-btn">
-              Login
+              Signup
             </button>
           </div>
         </form>
