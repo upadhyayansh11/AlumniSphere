@@ -32,6 +32,7 @@ const AboutPage = () => {
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
+        marginTop: "180px",
       }}
     >
       <div className=" bg-gray-50">

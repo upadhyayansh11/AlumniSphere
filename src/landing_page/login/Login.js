@@ -3,7 +3,7 @@ import React from "react";
 function Login() {
   return (
     <div
-      class="row mt-3"
+      class="row "
       style={{
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",

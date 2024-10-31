@@ -27,12 +27,11 @@ const ContactPage = () => {
 
   return (
     <div
-      className=""
       style={{
-        color: "",
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
+        marginTop: "180px",
       }}
     >
       <div className="">

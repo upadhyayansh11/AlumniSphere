@@ -3,7 +3,7 @@ import React from "react";
 function News() {
   return (
     <div
-      className="container  mb-5"
+      className="container  mb-5 "
       style={{
         color: "pink",
         fontFamily: "Bebas Neue, sans-serif",
@@ -50,11 +50,7 @@ function News() {
             make sustainable choices accessible to all, and this recognition
             affirms that we’re making strides in the right direction.”
           </p>
-          <a
-            href="/"
-            className="mx-5 "
-            style={{ textDecoration: "none", color: "black" }}
-          >
+          <a href="/" style={{ textDecoration: "none", color: "black" }}>
             <b>View More</b>
             <i
               class="fa fa-long-arrow-right "
@@ -104,11 +100,7 @@ function News() {
             cleanup event followed by a group lunch. Let’s work together to make
             a positive impact, all while spending time with fellow alumni.
           </p>
-          <a
-            href="/"
-            className="mx-5 "
-            style={{ textDecoration: "none", color: "black" }}
-          >
+          <a href="/" style={{ textDecoration: "none", color: "black" }}>
             <b>View More</b>
             <i
               class="fa fa-long-arrow-right "

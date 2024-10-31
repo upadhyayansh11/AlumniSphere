@@ -116,6 +116,7 @@ const EventPage = () => {
         fontFamily: "Bebas Neue, sans-serif",
         fontWeight: "600",
         fontStyle: "normal",
+        marginTop: "180px",
       }}
     >
       <header className="text-center ">

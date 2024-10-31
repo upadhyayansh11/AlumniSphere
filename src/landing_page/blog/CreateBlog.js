@@ -31,7 +31,7 @@ const BlogForm = () => {
 
   return (
     <div
-      className="row mt-3"
+      className="row"
       style={{
         color: "pink",
         fontFamily: "Bebas Neue, sans-serif",
